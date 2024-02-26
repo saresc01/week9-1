@@ -61,9 +61,9 @@ const productContainer = document.querySelector(".row")
 
 
 // Insert the generated HTML for each product card intro the 
-products.forEach(product => {
-    productContainer.innerHTML += createCard(product);
-})
+// products.forEach(product => {
+//     productContainer.innerHTML += createCard(product);
+// })
 
 filteredProducts.forEach(product => {
     productContainer.innerHTML += createCard(product);
